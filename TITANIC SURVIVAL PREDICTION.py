@@ -13,7 +13,7 @@ from sklearn.metrics import (accuracy_score, precision_score, recall_score,
                              f1_score, classification_report)
 
 # Load the Titanic dataset
-data_path = r'C:\Users\Dharnish\Downloads\Titanic-Dataset.csv'
+data_path = r'.\Titanic-Dataset.csv' #file path in your pc
 titanic_data = pd.read_csv(data_path)
 print(titanic_data.head())
 
